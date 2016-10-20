@@ -29,6 +29,9 @@ properties.load(project.rootProject.file('local.properties').newDataInputStream(
 bintray {
     user = properties.getProperty("bintray.user")
     key = properties.getProperty("bintray.apikey")
+    
+    publish = true  
+    override = true
 
     configurations = ['archives']
     pkg {
