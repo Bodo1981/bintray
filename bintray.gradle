@@ -44,7 +44,7 @@ bintray {
         licenses = allLicenses
         publish = true
         publicDownloadNumbers = true
-        labels = lables
+        labels = labels
         version {
             desc = libraryDescription
             gpg {
