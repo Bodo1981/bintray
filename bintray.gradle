@@ -52,12 +52,6 @@ bintray {
                 passphrase = properties.getProperty("bintray.gpg.password")
                 //Optional. The passphrase for GPG signing'
             }
-            mavenCentralSync {
-                sync = true
-                user = properties.getProperty("bintray.user")
-                password = properties.getProperty("bintray.gpg.password")
-                close = '1'
-            }
         }
     }
 }
